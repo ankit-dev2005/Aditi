@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const MUSIC_URL = "/bairan.mp3";
 
 // 📞 Replace with actual phone number (with country code for WhatsApp)
-const PHONE = "9905329602";
+const PHONE = "918271871056";
 
 const messages = [
   "Hey Aadi… 👀",
@@ -337,22 +337,26 @@ export default function App() {
                 >
                   📞 Call Me?
                 </a>
-                <a
-                  href={`https://wa.me/${PHONE}`}
-                  onClick={(e) => e.stopPropagation()}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{
-                    display: "inline-flex", alignItems: "center", gap: 6,
-                    padding: "11px 22px", borderRadius: 50,
-                    background: "#25D366", color: "white",
-                    fontWeight: 700, fontSize: 15, textDecoration: "none",
-                    boxShadow: "0 4px 16px rgba(37,211,102,0.4)",
-                    fontFamily: "inherit",
-                  }}
-                >
-                  💬 WhatsApp
-                </a>
+              <a
+  href={`https://wa.me/${PHONE}?text=Hey%20Aadi%2C%20I%20miss%20you%20%E2%9D%A4%EF%B8%8F`}
+  onClick={(e) => e.stopPropagation()}
+  target="_blank"
+  rel="noreferrer"
+  style={{
+    display: "inline-flex",
+    alignItems: "center",
+    gap: 6,
+    padding: "11px 22px",
+    borderRadius: 50,
+    background: "#25D366",
+    color: "white",
+    fontWeight: 700,
+    fontSize: 15,
+    textDecoration: "none",
+  }}
+>
+  💬 WhatsApp
+</a>
               </motion.div>
 
               {/* Heartbeat */}
