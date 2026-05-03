@@ -25,11 +25,12 @@ const messages = [
   "Itna attitude bhi theek nahi hai madam 🙂",
   "Chalo maan bhi jao ab…",
   "Ek chance aur de do… is baar properly handle karunga 🤞",
+  "Aadi, prepare for a permanent fixture! 🛋️ This time, I'm sticking around like super glue 🩹, ready to outdo myself and mend every 'oopsie' I've caused. ✨ No more disappearing acts from me! 👻",
 ];
 
 const finalMessages = [
   "Okay… last thing 🙂",
-  "I still like you… a lot ❤️",
+  "I love you… a lot ❤️",
   "Aur honestly… I don't want to lose you",
   "Toh bas ek baar baat kar lo…",
   "Baaki sab main handle kar lunga 😌",
