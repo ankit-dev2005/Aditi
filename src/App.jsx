@@ -342,6 +342,18 @@ export default function App() {
   onClick={(e) => e.stopPropagation()}
   target="_blank"
   rel="noreferrer"
+   style={{
+    display: "inline-flex",
+    alignItems: "center",
+    gap: 6,
+    padding: "11px 22px",
+    borderRadius: 50,
+    background: "#25D366",
+    color: "white",
+    fontWeight: 700,
+    fontSize: 15,
+    textDecoration: "none",
+  }}
 >
   💬 WhatsApp
 </a>
